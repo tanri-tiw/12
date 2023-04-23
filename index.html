@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="box" srcset="images/illustration-box-desktop.svg ,images/illustration-box-desktop 50w" sizes="(max-width:1440px)191px,(max-width:385px)50px" alt="illustration-box-desktop">
+    <section class="con">
+    <div class="images">
+      <img srcset="images/illustration-woman-online-desktop.svg ,images/illustration-woman-online-mobile.svg 150w" sizes="(max-width:1440px)472px,(max-width:385px)150px" alt="illustration-woman-online-desktop" >
+     
+    </div>
+ <div class="question">
+  <h1>FAQ</h1>
+  <div id="q1"class="ques">
+    How many team members can I invite?
+    <img class="arrow" id="1" src="images/icon-arrow-down.svg" alt="icon-arrow-down" >
+  </div>
+   <div id="a1" class="ans">
+    You can invite up to 2 additional users on the Free plan. There is no limit on 
+    team members for the Premium plan.
+   </div>
+  
+  <hr>
+   <div id="q2"class="ques">
+    What is the maximum file upload size?
+    <img class="arrow" id="2" src="images/icon-arrow-down.svg" alt="icon-arrow-down" >
+  </div>
+   <div id="a2" class="ans">
+    No more than 2GB. All files in your account must fit your allotted storage space.
+   </div>
+  
+  <hr>
+   <div id="q3" class="ques">
+    How do I reset my password?
+    <img class="arrow" id="3" src="images/icon-arrow-down.svg" alt="icon-arrow-down" >
+  </div>
+   <div id="a3" class="ans">
+    Click “Forgot password” from the login page or “Change password” from your profile page.
+    A reset link will be emailed to you.
+  
+   </div>
+
+  <hr>
+  <div id="q4" class="ques">
+    Can I cancel my subscription?
+    <img class="arrow" id="4" src="images/icon-arrow-down.svg" alt="icon-arrow-down" >
+    </div>
+   <div id="a4" class="ans">
+    Yes! Send us a message and we’ll process your request no questions asked.
+   </div>
+ 
+  <hr>
+  <div id="q5" class="ques">
+    Do you provide additional support?
+    <img class="arrow" id="5" src="images/icon-arrow-down.svg" alt="icon-arrow-down" >
+  </div>
+  <div id="a5" class="ans">
+    Chat and email support is available 24/7. Phone lines are open during normal business hours.
+ 
+  </div><hr>
+ </div>
+</section>
+<section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  </section>
+  </section>
+  </main>
+ 
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 65vw;
+    margin: auto;
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.con
+{
+    background: white;
+    display: flex;
+    overflow: hidden;
+    height: 65vh;
+    width: 63vw;
+    border-radius:20px ;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
+
+}
+.images{
+
+    background-image: url("images/bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-position-x:115%;
+    background-position-y: 65%;
+
+
+}
+.images img{
+    position: relative;
+    left: -17%;
+    top: 12%;
+}
+.box
+{
+    position: absolute;
+    left: 10%;
+    top: 43%;
+    z-index: 1;
+}
+.question
+{
+    padding-right: 100px;
+}
+h1{
+    color: hsl(238, 29%, 16%);
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.ques{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width:25vw;
+   
+    color: hsl(237, 12%, 33%);;
+}
+.ques img{
+    height: 10px;
+}
+.ans
+{
+    padding: 10px;
+    color: hsl(240, 6%, 50%)    ;
+}
+hr
+{
+    width:27vw;
+  
+    height: 0;
+    border: 1px solid hsl(240, 5%, 91%);;
+}
+.bold{
+    font-weight: bold;
+    color: hsl(238, 29%, 16%);
+}
+.ques:hover
+{
+    color: hsl(14, 88%, 65%);
+    cursor: pointer;
+   
+}
+.rotate {
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  @media only screen and (max-width: 385px) {
+    body {
+
+      width: 100vw;
+    }
+    .con{
+       flex-direction: column;
+       overflow:visible;
+       height:80vh    ;
+        width:90vw;
+        margin-top:50%;
+    }
+    .images img{
+        height: 30vh;
+        left: 12%;
+        top:-110%;
+       
+    }
+    .images{
+        background-image: url("images/bg-pattern-mobile.svg");
+        background-size: 70%;
+        background-position-x:50%;
+        background-position-y:10%;
+        height:100px;
+
+     
+    }
+    .box{
+        height: 100px;
+        top: 115px;
+        left: 53px;
+}
+   
+    
+    .question{
+        padding-right: 0;
+        width: 80%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+    }
+    .ques{
+        width: 70vw;
+    }
+    hr{
+        width: 100%;
+        margin: auto;
+    }
+
+
+  }
